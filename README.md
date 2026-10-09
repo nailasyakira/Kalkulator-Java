@@ -88,3 +88,18 @@ Masukkan angka, pilih operator, masukkan angka kedua, kemudian tekan = untuk men
 | Perkalian | 6 × 3 | 18 |
 | Pembagian | 20 ÷ 4 | 5 |
 | Desimal | 2.5 + 1.5 | 4 |
+
+### Catatan Penggunaan
+
+- Tekan tombol AC untuk menghapus input dan mengatur ulang kalkulator.
+- Gunakan tombol +/− untuk mengubah tanda bilangan jika didukung oleh input yang sedang ditampilkan.
+- Gunakan tombol titik untuk memasukkan bilangan desimal.
+- Tekan tombol = untuk menampilkan hasil perhitungan.
+
+## Tim Pengembang
+
+| Nama | NPM |
+| :--- | :--- |
+| **Keisya Zahira** | 250810701100038 |
+| **Naila Syakira Bahri** | 250810701100042 |
+| **Abrar Muda** | 250810701100080 |
