@@ -1,0 +1,90 @@
+# Kalkulator Java
+
+### Deskripsi
+
+Kalkulator Java adalah aplikasi kalkulator sederhana berbasis Graphical User Interface (GUI) yang dibuat menggunakan bahasa pemrograman Java. Aplikasi ini memiliki tampilan seperti kalkulator pada umumnya dengan tombol angka, operator, dan beberapa fungsi tambahan.
+
+Program dibuat menggunakan komponen GUI dari Java Swing dan AWT. Swing digunakan untuk membuat komponen seperti jendela, tombol, label, dan panel, sedangkan AWT digunakan untuk pengaturan warna, font, layout, serta event pada aplikasi.
+
+### Tujuan
+
+Aplikasi Kalkulator Java dibuat untuk membantu pengguna melakukan perhitungan matematika dasar melalui antarmuka grafis yang sederhana dan mudah digunakan. Proyek ini juga bertujuan untuk menerapkan pemrograman Java, penggunaan komponen GUI dengan Swing dan AWT, serta pengelolaan event pada aplikasi desktop.
+
+### Fitur
+
+- Penjumlahan (+) untuk menjumlahkan dua bilangan.
+- Pengurangan (-) untuk menghitung selisih dua bilangan.
+- Perkalian (×) untuk mengalikan dua bilangan.
+- Pembagian (÷) untuk membagi dua bilangan.
+- Persentase (%) untuk melakukan perhitungan persentase.
+- Positif/Negatif (+/-) untuk mengubah tanda bilangan.
+- Bilangan Desimal (.) untuk memasukkan angka desimal.
+- Reset (AC) untuk menghapus input dan mengatur ulang perhitungan.
+- Akar Kuadrat (√) untuk menghitung akar kuadrat jika fungsi ini telah diterapkan pada source code.
+
+### Teknologi
+
+- **Java** sebagai bahasa pemrograman.
+- **Java Swing** untuk membuat komponen GUI seperti JFrame, JButton, JLabel, dan JPanel.
+- **AWT (Abstract Window Toolkit)** untuk mendukung pengaturan warna, font, layout, dan event pada GUI.
+- **JDK (Java Development Kit)** Digunakan untuk mengompilasi dan menjalankan program Java.
+- **GitHub** Digunakan untuk menyimpan dan mempublikasikan source code.
+
+### Struktur Proyek
+
+Struktur file utama dalam proyek ini adalah sebagai berikut:
+
+Kalkulator-Java/
+├── App.java
+├── Kalkulator.java
+└── README.md
+
+**Keterangan:**
+- App.java merupakan file utama untuk menjalankan aplikasi.
+- Kalkulator.java berisi tampilan antarmuka dan fungsi kalkulator.
+- README.md berisi dokumentasi proyek, fitur, dan petunjuk penggunaan.
+  
+### Cara Menjalankan/Instalasi
+
+Pastikan Java Development Kit (JDK) sudah terpasang pada komputer.
+
+1. Unduh atau clone repositori GitHub ke komputer.
+2. Buka folder proyek melalui terminal atau Visual Studio Code.
+3. Pastikan file App.java dan Kalkulator.java berada di lokasi yang sesuai.
+4. Buka terminal pada folder project, kemudian lakukan,
+   
+*Compile:*
+```
+javac App.java 
+```
+*Jalankan*
+```
+java App
+```
+
+### Tampilan Program
+
+Kalkulator memiliki ukuran layar 360 × 540 pixel. Tombol disusun menggunakan GridLayout dengan 5 baris dan 4 kolom.
+Semua tombol kalkulator disimpan dalam array nilaiTombol, yaitu:
+
+```
+AC  +/-  %  ÷
+7   8    9  ×
+4   5    6  -
+1   2    3  +
+0   .    √  =
+```
+
+### Cara Penggunaan
+
+Masukkan angka, pilih operator, masukkan angka kedua, kemudian tekan = untuk mendapatkan hasil perhitungan.
+
+### Contoh I/O
+
+| Operasi | Input | Output |
+| :--- | :--- | :--- |
+| Penjumlahan | 10 + 5 | 15 |
+| Pengurangan | 10 - 4 | 6 |
+| Perkalian | 6 × 3 | 18 |
+| Pembagian | 20 ÷ 4 | 5 |
+| Desimal | 2.5 + 1.5 | 4 |
